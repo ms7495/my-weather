@@ -1,0 +1,30 @@
+.weatherForecast {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.weatherForecast h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.forecastDay {
+    width: 10%;
+    min-width: 150px;
+    background-color: #f4f4f4;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.19), 0px 6px 6px rgba(0,0,0,0.23);
+    border-radius: 10px;
+}
+
+.forecastDay h3 {
+    text-align: center;
+}
+
+.forecastDay p {
+    margin: 5px 0;
+    font-size: 0.9rem; /* reduce font size if needed */
+}
